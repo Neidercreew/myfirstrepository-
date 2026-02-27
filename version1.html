@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página Web</title>
+    <style>
+        /* Estilos CSS para que la página se vea genial */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: #2c3e50;
+            color: #ffffff;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem;
+            background: #fff;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .btn {
+            display: inline-block;
+            background: #e74c3c;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #c0392b;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>¡Bienvenido a mi sitio web!</h1>
+        <p>Creado con HTML, CSS y un toque de magia.</p>
+    </header>
+
+    <div class="container">
+        <h2>Sobre este proyecto</h2>
+        <p>Este es un archivo base listo para que lo edites. Visual Studio Code es la herramienta perfecta para empezar a programar.</p>
+        
+        <h3>¿Qué sigue ahora?</h3>
+        <ul>
+            <li>Cambia los textos entre las etiquetas.</li>
+            <li>Prueba a cambiar el color de fondo en el bloque de <code>&lt;style&gt;</code>.</li>
+            <li>Agrega tus propias imágenes.</li>
+        </ul>
+
+        <button class="btn" onclick="saludo()">¡Haz clic aquí!</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Mi Nombre de Usuario</p>
+    </footer>
+
+    <script>
+        // Un poco de JavaScript para dar vida a la página
+        function saludo() {
+            alert("¡Hola! Estás dando tus primeros pasos en el desarrollo web. ¡Sigue así!");
+        }
+    </script>
+
+</body>
+</html>
